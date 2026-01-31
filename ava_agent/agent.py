@@ -1,4 +1,4 @@
-# Ava Agent Implementation
+# Ava Agent Implementation (Langchain)
 
 from langchain.agents import create_agent
 from langchain_google_genai import ChatGoogleGenenerativeAI

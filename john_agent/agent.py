@@ -1,4 +1,4 @@
-# John Agent Implementation
+# John Agent Implementation (CrewAI)
 
 from crewai import LLM, Agent, Crew, Process, Task
 from dotenv import load_dotenv
