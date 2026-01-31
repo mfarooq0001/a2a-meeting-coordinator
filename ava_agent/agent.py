@@ -5,7 +5,6 @@ from langchain_google_genai import ChatGoogleGenenerativeAI
 from langchain_core.messages.ai import AIMessage
 from langgraph.checkpointer import MemorySaver
 from dotenv import load_dotenv
-
 from tools import check_ava_availability
 
 # Load environment variables from .env file

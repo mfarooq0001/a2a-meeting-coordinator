@@ -3,7 +3,7 @@
 from a2a.server.agent_execution import AgentExecutor
 from a2a.server.agent_execution.context import RequestContext
 from a2a.server.events.event_queue import EventQueue
-from ava_agent.agent import AvaAgent
+from agent import AvaAgent
 
 class AvaAgentExecutor(AgentExecutor):
     def __init__(self):

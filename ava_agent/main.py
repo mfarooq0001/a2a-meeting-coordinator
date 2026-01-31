@@ -13,7 +13,7 @@ import httpx
 import uvicorn
 
 
-def main(host="localhost", port=8000):
+def main(host="localhost", port=10003):
 
     # Define agent skill
     skill = AgentSkill(
